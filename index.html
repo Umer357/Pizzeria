@@ -1,0 +1,36 @@
+<!-- Login page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login - Crust & Crumb Pizzeria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+    <div id="logo_container" style="display: flex; align-items: center; padding-left: 20px;">
+        <img src="pizza_logo.jpg" alt="Crust & Crumb Pizzeria Logo">
+        <h2 style="margin: 0; margin-left: 10px; color: white;">Crust & Crumb Pizzeria</h2>
+    </div>
+</header>
+<main>
+    <div id="login_div">
+        <form id="form" method="post" action="login.php">
+            <h2>Login to Your Account</h2>
+            <div class="form_group">
+                <input class="form_control" id="username" name="username" type="text" placeholder="Username" required>
+            </div>
+            <div class="form_group">
+                <input class="form_control" id="password" name="password" type="password" placeholder="Password" required>
+            </div>
+            <div class="form_group">
+                <button type="submit" class="btn">Login</button>
+            </div>
+            <p>Don’t have an account? <a href="register.php">Register here</a></p>
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
